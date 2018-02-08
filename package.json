@@ -1,36 +1,17 @@
 {
   "name": "adc-timebooking-node",
-  "version": "1.0.0",
-  "description": "Node port of adc-timebooking from PHP",
-  "main": "app.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "devstart": "nodemon ./bin/www"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "aws-sdk": "~2.82.0",
-    "body-parser": "~1.17.1",
-    "client-sessions": "^0.8.0",
+    "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
-    "debug": "~2.6.3",
-    "express": "~4.15.2",
-    "express-validator": "^3.2.1",
-    "jade": "~1.11.0",
-    "keypair": "^1.0.1",
-    "morgan": "~1.8.1",
-    "serve-favicon": "~2.4.2"
-  },
-  "devDependencies": {
-    "nodemon": "^1.11.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/domgoodwin/adc-timebooking-node.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/domgoodwin/adc-timebooking-node/issues"
-  },
-  "homepage": "https://github.com/domgoodwin/adc-timebooking-node#readme"
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5"
+  }
 }
